@@ -1,10 +1,10 @@
 name: welcome
-on:
- push:
+
+on: push
 
 jobs:
-   namaste:
-   runs-on: ubuntu-latest
-   steps:
-   - name: Greet the User 
-   run: echo "Babuji ki jay ho"
+   namaste: 
+      runs-on: ubuntu-latest
+      steps:
+      - name: Greet the User 
+      run: echo "Babuji ki jay ho"
